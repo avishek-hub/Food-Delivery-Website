@@ -1,0 +1,50 @@
+/* CSS Reset */
+
+ {
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS Varibles */
+:root {
+  --Navbar-height: 59px;
+}
+
+/* Navigaion Bar */
+
+#navbar {
+  display: flex;
+  color: rgb(42, 165, 73);
+  align-items: left;
+}
+
+/* Navigaion: Bar logo and Image */
+#logo {
+  height: 56px;
+  margin: 0px 0px 50px;
+}
+
+#logo img {
+  width: 12%;
+  height: auto;
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li {
+  color: aliceblue;
+  /* background-color: black; */
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+/* Navigaion: Bar List Styling */
